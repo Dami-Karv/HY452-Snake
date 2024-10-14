@@ -112,10 +112,13 @@ class Game():
         self.curr_menu = self.main_menu
 
         # Load background music
-        pygame.mixer.music.load("../assets/sounds/background_music.mp3")
-        pygame.mixer.music.set_volume(0.5)  # Set volume (0.0 to 1.0)
-        pygame.mixer.music.play(-1)  # Play the music (-1 means loop indefinitely)
-        self.music_playing = True
+                           #    pygame.mixer.music.load("../assets/sounds/background_music.mp3")
+                   #    pygame.mixer.music.set_volume(0.5)  # Set volume (0.0 to 1.0)
+                 #    pygame.mixer.music.play(-1)  # Play the music (-1 means loop indefinitely)
+#    self.music_playing = True
+
+
+
 
         #Load background image
         self.background_image = pygame.image.load('../assets/images/backgrounds/background_image.jpg')
